@@ -19,8 +19,7 @@ if (pinapplePizza) {
   );
 }
 
-i = 0;
-for (i = 0; i < lifeEvents.length; i++) {
+for (let i = 0; i < lifeEvents.length; i++) {
   console.log(lifeEvents[i]);
 }
 
